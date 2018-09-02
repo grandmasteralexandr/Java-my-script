@@ -23,7 +23,7 @@ public class Teacher {
         String[] teacherList = {"Alexandr Zalenskiy", "Dmitro Napoleon", "Alex Memfis", "Coca Cola", "Anton Pepsi",
                 "Adron Kolaider", "Marina Volochkova", };
 
-//        ученики являются теми же учетилями, но этот список мы будем постоянно менять так что делаем копию в ArrayList
+//        ученики являются теми же учителями, но этот список мы будем постоянно менять так что делаем копию в ArrayList
         ArrayList<String> remainLearners = new ArrayList<>(Arrays.asList(teacherList));
 
 //        задаем пустой массив для объектов класса
